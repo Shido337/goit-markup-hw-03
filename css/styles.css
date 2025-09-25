@@ -234,9 +234,12 @@ margin-left: 480px;
 
 /* qualities styles */
 
+.qualities-section{
+    padding-top: 120px;
+        padding-bottom: 120px;
+}
+
 .qualities-section .container {
-padding-top: 120px;
-padding-bottom: 120px;
 display: flex;
 }
 
@@ -276,6 +279,7 @@ font-family: var(--font-family);
 }
 
 .team-section .container {
+
 }
 
 .team-title {
