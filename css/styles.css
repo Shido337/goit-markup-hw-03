@@ -194,9 +194,9 @@ gap: 40px;
 /* hero styles */
 
 .hero {
-    background: var(--navy-blue);
- padding-top: 188px;  
- padding-bottom: 188px; 
+background: var(--navy-blue);
+padding-top: 188px;  
+padding-bottom: 188px; 
 }
 
 .hero-title {
@@ -271,11 +271,11 @@ font-family: var(--font-family);
 
 .team-section {
     background: var(--cloud);
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .team-section .container {
+        padding-top: 120px;
+            padding-bottom: 120px;
 }
 
 .team-title {
@@ -405,6 +405,7 @@ font-family: var(--second-family);
 }
 
 .footer-logo-text {
+    display: inline-block;
     font-family: var(--second-family);
         font-weight: 700;
         font-size: 18px;
@@ -416,6 +417,7 @@ font-family: var(--second-family);
 }
 
 .footer-text {
+    display: inline-block;
     margin-right: 864px;
     font-family: var(--font-family);
         font-weight: 400;
