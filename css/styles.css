@@ -271,11 +271,11 @@ font-family: var(--font-family);
 
 .team-section {
     background: var(--cloud);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-section .container {
-        padding-top: 120px;
-            padding-bottom: 120px;
 }
 
 .team-title {
@@ -331,12 +331,11 @@ width: calc((100% - 3 * 24px) / 4);
 
 /* portfolio styles */
 
-.portfolio-section {
+.portfolio-section{
 padding-top: 120px;
 padding-bottom: 120px;
 }
 
-.container {}
 
 .portfolio-title {
     font-weight: 700;
@@ -393,7 +392,7 @@ color: var(--slate);
 }
 
 .logo-footer {
-display: block;
+display: inline-block;
 font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
@@ -405,7 +404,6 @@ font-family: var(--second-family);
 }
 
 .footer-logo-text {
-    display: inline-block;
     font-family: var(--second-family);
         font-weight: 700;
         font-size: 18px;
@@ -417,7 +415,6 @@ font-family: var(--second-family);
 }
 
 .footer-text {
-    display: inline-block;
     margin-right: 864px;
     font-family: var(--font-family);
         font-weight: 400;
